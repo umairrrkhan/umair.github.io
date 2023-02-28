@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <title>Umair Khan</title>
+</head>
+<body>
+    <div id="header">
+        <div class="conatainer">
+            <nav>
+                <img src="images/UMAIR-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>                
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineeer</p>
+                <h1>Hi I'am <span> <br> Umair</span><br></h1>
+            </div>
+        </div>
+    </div>
+    <!--                              about                                -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello! My name is Umair Khan and I'm a B.Tech student majoring in Computer Science and Engineering. With a passion for analytics and programming, I specialize in Python and JavaScript and have experience working with the MERN stack. I have also developed strong analytical skills and am familiar with various analytics tools.
+                             <br><br>
+                        Outside of academics, I am a sports enthusiast and have a keen interest in football. In fact, I was the captain of my high school football team. I also have a creative side and enjoy anime and photo editing.
+                        <br> <br>
+                        As a self-motivated and dedicated individual, I bring a strong work ethic and attention to detail to everything I do. I am excited to continue honing my skills in the tech industry and look forward to exploring new opportunities. Feel free to reach out to me for any collaboration or work opportunities.
+                    <br> <br>
+                    My philosophy is to continuously learn and grow, while remaining adaptable and putting in persistent effort. I value teamwork and collaboration and prioritize integrity and honesty in all that I do.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"onclick='opentab("skills")'>Skill</p>
+                        <p class="tab-links" onclick='opentab("experience")' >Experience</p>
+                        <p class="tab-links" onclick='opentab("education")' >Education</p>
+                        <p class="tab-links" onclick='opentab("voulenteer")' >Volunteer</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span>Javascript</span><br></li>
+                            <li><span>Python</span> <br></li>
+                            <li><span>MERN stack</span><br></li>
+                            <li><span>HTML/CSS</span><br></li>
+                            <li><span>Scratch</span><br></li>
+                            <li><span>SQL</span><br></li>
+                            <li><span>CI/CD Testing</span><br></li>
+                            <li><span>Django</span><br></li>
+                            <li><span>Git</span><br></li>
+                            <li><span>Tableau</span><br></li>
+                            <li><span>Excel</span><br></li>
+                            <li><span>Analytics</span><br></li>
+                            <li><span>Attention to detail</span><br></li>
+                            <li><span>Mongodb</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Farid institute </span><br>Frontend django developer <br>09-22  12-22</li>
+                            <li><span>KNIPSS</span><br>Game developer <br>03-22 07-22</li>
+                            <li><span>MERN stack</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Kamla Nehru Institute of physical and social science</span><br>11-2020  -   current</li>
+                            <li><span>St. Xavier's high school</span></li>
+                    </div>
+                    <div class="tab-contents" id="voulenteer">
+                        <ul>
+                            <li><span>Samajwadi party </span><br> Activist</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--                  contact    -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>umairh1819@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+918840002731</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/magpieee__/" target="_blank">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/umair-khan-a5348a202/" target="_blank">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                    </div>
+                    <a href="" download  class="btn btn2 ">Download resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="Name" placeholder="Your name" required><br>
+                      
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="Email" placeholder="Your email" required><br>
+                      
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="Message" placeholder="Your message" required></textarea><br>
+                      
+                        <button type="submit" row="6" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                    </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @umair <i class="fas fa-heart"></i>2023</p>
+        </div>
+    </div>
+    <!--      script   -->
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script> 
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right ="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzzrWE27fL1gPloUAKV9rKcHzR-KLEPOaSfNMugSQjpzI98AdYXHl-aP0C5SoFjnBUh5w/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML ="Message sent succesfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
