@@ -34,7 +34,7 @@ I am currently pursuing a B.Tech in Computer Science and Engineering from KNIPSS
 ## Experience
 
 **Frontend Developer Intern | Farid Institute**
-(September 2022 - December 2022, April 2023)
+(September 2022 - December 2022)
 
 - Refactored existing frontend code to improve performance, readability, or maintainability.
 - Created new pages using HTML/CSS and JavaScript.
