@@ -1,6 +1,12 @@
 # Umair Khan - Portfolio Website
 
-This is my personal portfolio website where I showcase my skills, experiences, and education in the field of Computer Science and Engineering. I am a Machine Learning Engineer and have expertise in Python, Java, JavaScript, HTML/CSS, ReactJS, NodeJS, MongoDB, SQL, Git, PyTorch, TensorFlow, Scikit-Learn, Tableau/Excel, and Power BI. 
+i'm a fresh Computer Science graduate with an insatiable appetite for AI and Machine Learning. While my degree from Kamla Nehru Institute is new, my passion for pushing tech boundaries has been brewing for years. I don't just see algorithms; I see solutions to real-world puzzles.
+
+My journey has led me through diverse AI landscapes—from teaching machines to detect online toxicity to predicting financial crises. Recent internships at Spacept and Ybi Foundation weren't just jobs, but playgrounds where I upgraded ML systems and breathed life into inference models as I embark on my professional path, I'm not just seeking employment; I'm on a quest to contribute to the AI revolution. Armed with Python and frameworks like TensorFlow and PyTorch, I'm ready to transform complex data into intelligent solutions.
+
+My toolkit includes a solid foundation in computer vision, NLP, and data analysis, complemented by a knack for problem-solving and an eagerness to learn. I thrive on challenges that push me to expand my skills and knowledge.
+
+If you're looking for a blend of fresh perspective and tech enthusiasm, let's connect. Together, we could shape the future of AI, turning data into insights and ideas into innovations. Ready to explore the possibilities? 
 
 ## Technologies Used
 
@@ -10,42 +16,11 @@ This is my personal portfolio website where I showcase my skills, experiences, a
 * Font Awesome
 * Unicorn
 
-## About Me
-
-I am currently pursuing a B.Tech in Computer Science and Engineering from KNIPSS. I have experience as a Frontend Developer Intern at Farid Institute, where I improved the performance, readability, and maintainability of existing frontend code, created new pages using HTML/CSS and JavaScript, and used ReactJS to create dynamic and responsive user interfaces. I have also developed a machine learning model to predict house prices using linear regression, utilizing Python libraries such as scikit-learn, NumPy, and Pandas. Additionally, I have created a sentiment analysis tool using NLTK, Scikit-learn, Pandas, and TensorFlow to analyze product reviews and determine their overall sentiment.
-
-## Skills
-
-* Python
-* Java
-* JavaScript
-* HTML/CSS
-* ReactJS
-* NodeJS
-* MongoDB
-* SQL
-* Git
-* PyTorch
-* TensorFlow
-* Scikit-Learn
-* Tableau/Excel
-* Power BI
-
-## Experience
-
-**Frontend Developer Intern | Farid Institute**
-(September 2022 - December 2022)
-
-- Refactored existing frontend code to improve performance, readability, or maintainability.
-- Created new pages using HTML/CSS and JavaScript.
-- Used ReactJS to create dynamic and responsive user interfaces.
-- Improved the user experience of the web application.
-
 ## Contact Me
 
 You can contact me through the following channels:
 
-* LinkedIn: [Umair Khan](https://www.linkedin.com/in/umair-khan-a5348a202)
+* LinkedIn: [Umair Khan](https://www.linkedin.com/in/umairkhannn)
 * GitHub: [umairrrkhan](https://github.com/umairrrkhan/)
 
 # Link of Website
